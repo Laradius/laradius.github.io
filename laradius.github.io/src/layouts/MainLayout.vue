@@ -4,7 +4,7 @@
       <div class="logoContainer">
         <q-img class="logo" src="/logo.png" />
       </div>
-      <q-tabs class="navtabs" align="right">
+      <q-tabs align="center" class="navtabs">
         <q-route-tab to="/" label="Home" />
         <q-route-tab to="/AboutMe" label="About Me" />
         <q-route-tab to="/Projects" label="My Projects" />
@@ -83,15 +83,13 @@ function toggleLeftDrawer() {
 }
 
 .navtabs {
-  margin-top: $default-margin;
-  margin-right: $default-margin;
+  margin-top: 2rem;
   color: black;
 }
 
 .navtabs .q-tab__label {
+  margin: 0 3rem;
   font-family: american-captain;
-  margin: 0 2rem;
-  padding: 0 $default-padding;
   font-size: 1.5rem;
 }
 .layout {
