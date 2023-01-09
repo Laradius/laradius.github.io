@@ -1,8 +1,9 @@
+@import './reset.scss';
+@import './fonts.scss';
+
 body {
   background-color: $background-color;
-  font-family: calluna;
+  font-family: american-captain;
+  color: black;
+  font-size: 16px;
 }
-$layout-shadow: none;
-$layout-shadow-dark: none;
-
-$layout-border: none;
