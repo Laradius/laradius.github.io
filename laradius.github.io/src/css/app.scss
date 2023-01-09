@@ -1,1 +1,8 @@
-// app global css in SCSS form
+body {
+  background-color: $background-color;
+  font-family: calluna;
+}
+$layout-shadow: none;
+$layout-shadow-dark: none;
+
+$layout-border: none;
