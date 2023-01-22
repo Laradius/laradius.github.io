@@ -6,4 +6,15 @@ body {
   font-family: american-captain;
   color: black;
   font-size: 16px;
+  padding: 1rem;
+}
+
+hr {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 5px solid $hr-color;
+  margin: 1rem 0;
+  padding: 0;
+  width: 100%;
 }
